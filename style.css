@@ -219,7 +219,7 @@ popular .varieties .kales{
 }
 
 .new{
-    flex: 1;
+    width: 100%;
 
 }
 
@@ -268,4 +268,89 @@ popular .varieties .kales{
 
 .new .more .tomatoes p2{
     font-weight: bold;
+}
+
+.feedback{
+    flex: 1;
+}
+
+.feedback .customers{
+    display: flex;
+    margin: 20px;
+    /* border-bottom: 5rem; */
+}
+.feedback .customersfeedback .h3{
+    display: block;
+    font-weight: bold;
+}
+
+.feedback .customers .way .checked{
+    color: #ED661F;
+} 
+
+.feedback .customers .place .checked{
+    color: #ED661F;
+}
+
+.feedback .customers .connection .checked{
+    color: #ED661F;
+}
+
+.feedback .customers .way p{
+    font-weight: bold;
+}
+
+.feedback .customers .place p{
+    font-weight: bold;
+}
+
+
+.feedback .customers .connection p{
+    font-weight: bold;
+}
+.footer{
+    background-color: black;
+    align-items: center;
+}
+
+.footer .title{
+    display: block;
+    /* align-items: center; */
+}
+.footer .title h2{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    /* align-items: center; */
+}
+
+.footer .title p{
+    color: white;
+    font-size: 20px;
+    /* align-items: center; */
+    display: block;
+
+}
+
+.footer .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .email > input{
+    font-size: 20px;
+    color: black;
+    padding-left: 26px;
+    width: 30%;
+    height: 40px;
+}
+
+#subscribe{
+    background-color: #ED661F;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
 }
