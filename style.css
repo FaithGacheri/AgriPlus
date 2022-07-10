@@ -309,6 +309,7 @@ popular .varieties .kales{
 .footer{
     background-color: black;
     align-items: center;
+    /* display: flex; */
 }
 
 .footer .title{
@@ -351,4 +352,40 @@ popular .varieties .kales{
     padding: 10px 20px 10px 20px;
     font-weight: 500;
     font-size: 20px;
+}
+
+.footer2{
+    background-color: black;
+    height: 120px;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+}
+
+.footer2 .details{
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+}
+
+.footer2 .details .co{
+    flex-direction: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.footer2 .details .image{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+.footer2 ul li a{
+    color: #fafafa;
+}
+.footer2 ul li{
+    color: #fafafa;
+    margin-bottom: 20px;
 }
