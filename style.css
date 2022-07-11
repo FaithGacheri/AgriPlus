@@ -46,7 +46,7 @@ body{
 }
 .navbar ul li #btn{
     margin-right: 0;
-    /* background-color: blue; */
+    /* background-color: blue;widt */
 }
 
 .navbar ul li a{
@@ -77,7 +77,8 @@ justify-content: center;
 .imagecontainer{
   position: relative;
   height: 80%;
-  width: 80%;  
+  width: 80%;
+ display: flex;
 } 
 
 .bottom-left{
@@ -86,39 +87,47 @@ justify-content: center;
     position: absolute;
     bottom: 200px;
     left: 0px;
-    float: inline-end;
-    padding: 40px 20px 2px 20px;
+    /* float: inline-end; */
+    padding: 20px;
+/* background-color: blue; */
+top: 30px;
 }
 
-.more{
-  padding: 10px 10px 10px 10px;
-  bottom: 8px;
-  left: 16px;
-  float: inline-end;
 
-}
-#more{
+#more {
 background-color: #ED661F;
 color: white;
-padding: 20px 10px 20px 10px;
+padding: 10px ;
 border-radius: 5px;
-bottom: 0px;
-left: 0px;
+/* bottom: 0px; */
+/* left: 0px; */
 border: none;
+width: 130px; ;
+height: 60px;
 }
+
+#more a{
+    color: #fafafa;
+    text-decoration: none;
+}
+
+#more:hover{
+    transform: scale(1.05);
+} 
 
 .top-right{
     /* flex: 1; */
     width: 50%;
     height: 50%;
     position: absolute;
-    top: 10px;
-    left: 600px;
+    /* top: 10px; */
+    /* left: 600px; */
+    right: 0;
 }
 
-.imagecontainer .customers{
-    height: 72px;
-    width: 50%;
+.customers{
+
+    width: 70%;
     background-color: white;
      box-shadow: 0 1px 3px gray;
      margin: auto;
@@ -128,12 +137,11 @@ border: none;
      position: relative;
      right: -52px;
      top: -50px;}
-     .imagecontainer .customers .data{
-        height: 40px;
-        margin: 5px;
+      .customers .data{
+       margin: 5px;
         text-align: center;
      }
-     .imagecontainer .customers .data p{
+     .customers .data p{
         font-weight: 800;
         font-size: 20px;
         /* text-align: center; */
@@ -152,21 +160,19 @@ border: none;
 
 .regarding .customercare{
     flex: 1;
-
+/* background-color: blue; */
 }
-.img{
+.regarding .content{
+    flex: 1;
+}
+img{
     max-width: 100%;
     max-height: 100%;
 }
 
-.regarding .customercare .img{
-    flex: 1;
-    width: 50%;
-}
-
 .products{
     text-align: center;
-    font-size:24px ;
+    /* font-size:24px ; */
 }
 
 .popular{
@@ -286,12 +292,14 @@ popular .varieties .kales{
 .feedback .customers{
     display: flex;
     margin: 30px;
-    /* border-bottom: 5rem; */
+    margin-top: 5rem;
     justify-content: space-between;
 }
-.feedback .customersfeedback .h3{
+.feedback .customersfeedback {
     display: block;
     font-weight: bold;
+    margin-bottom: 20px;
+    
 }
 
 .feedback .customers .way .checked{
