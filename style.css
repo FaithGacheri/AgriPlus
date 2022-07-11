@@ -304,44 +304,41 @@ popular .varieties .kales{
 
 .feedback .customers .way .checked{
     color: #ED661F;
-} 
-
-.feedback .customers .place .checked{
-    color: #ED661F;
 }
 
-.feedback .customers .connection .checked{
-    color: #ED661F;
+.feedback .customers .way {
+   /* background-color: red;  */
+   margin: 30px;
 }
 
+.handle{
+    /* background-color: red; */
+    display: flex;
+}
+.handle img{
+    max-width: 50%;
+    max-height: 50%;
+    margin-right: 5px;
+}
 .feedback .customers .way p{
     font-weight: bold;
 }
 
-.feedback .customers .place p{
-    font-weight: bold;
-}
-
-
-.feedback .customers .connection p{
-    font-weight: bold;
-}
-
-
 .footer{
     background-color: black;
-    align-items: center;
+    /* align-items: center; */
     /* display: flex; */
+    padding: 8px;
+    margin-bottom: 2px;
 }
 
 .footer .title{
-    display: block;
-    /* align-items: center; */
+   text-align: center;
 }
 .footer .title h2{
     color: white;
     font-weight: 500;
-    font-size: 10px;
+    /* font-size: 10px; */
     /* align-items: center; */
 }
 
@@ -376,20 +373,12 @@ popular .varieties .kales{
     font-size: 20px;
 }
 
-.footer2{
-    background-color: black;
-    height: 120px;
-    align-items: center;
-    justify-content:space-around;
-    padding: 30px 30px 30px 30px;
-    display: flex;
-    margin-top: 6px;
-}
 
-.footer2 .details{
+
+.footer2 {
     background-color: black;
     color: #fafafa;
-    height: 50px;
+    /* height: 50px; */
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px 10px 10px;
@@ -397,23 +386,29 @@ popular .varieties .kales{
 
 }
 
-.footer2 .details .co{
-    flex-direction: 1;
+.footer2  .co{
+    flex: 1;
     display: flex;
     justify-content: space-between;
 }
-.footer2 .details .image{
+.footer2  .image{
     display: flex;
     justify-content: center;
     color: aqua;
 }
 .footer2 ul li a{
     color: #fafafa;
+  
+    text-decoration: none;
 }
 .footer2 ul li{
     color: #fafafa;
     margin-bottom: 20px;
+    list-style-type: none;
 }
-.footer2 .details .rights{
-    position: relative;
+  .rights{
+    background-color: black;
+    margin-top: -30px;
+color: #fafafa;
+text-align: center;
 }
