@@ -1,7 +1,7 @@
 body{
     /* background-color: #ED661F; */
-    
-
+    width: 100%;
+    font-family: 'Poppins', "Inter",sans-serif;
 }
 
 
@@ -37,18 +37,26 @@ body{
     padding: 0px 2px;
     margin: 20px;
     /* color: white; */
+    /* background-color: yellow; */
     
 }
 .navbar ul li{
-    list-style: none;
+    list-style-type: none;
     padding: 2px 8px;
+}
+.navbar ul li #btn{
+    margin-right: 0;
+    /* background-color: blue; */
 }
 
 .navbar ul li a{
-    font-size: 15px;
+    font-size: 13px;
     /* padding: 10px 15px; */
     display: inline;
     color: white;
+    /* margin: 5px; */
+    
+    text-decoration: none;
 }
 
 .button{
@@ -91,11 +99,12 @@ justify-content: center;
 }
 #more{
 background-color: #ED661F;
-color: #fafafa;
-padding: 5px 7px 5px 7px;
+color: white;
+padding: 20px 10px 20px 10px;
 border-radius: 5px;
 bottom: 0px;
 left: 0px;
+border: none;
 }
 
 .top-right{
@@ -127,6 +136,7 @@ left: 0px;
      .imagecontainer .customers .data p{
         font-weight: 800;
         font-size: 20px;
+        /* text-align: center; */
      }
 
 .regarding{
@@ -151,6 +161,7 @@ left: 0px;
 
 .regarding .customercare .img{
     flex: 1;
+    width: 50%;
 }
 
 .products{
@@ -217,7 +228,7 @@ popular .varieties .kales{
 }
 
 .new{
-    width: 100%;
+    /* width: 100%; */
 
 }
 
@@ -276,6 +287,7 @@ popular .varieties .kales{
     display: flex;
     margin: 30px;
     /* border-bottom: 5rem; */
+    justify-content: space-between;
 }
 .feedback .customersfeedback .h3{
     display: block;
@@ -306,6 +318,8 @@ popular .varieties .kales{
 .feedback .customers .connection p{
     font-weight: bold;
 }
+
+
 .footer{
     background-color: black;
     align-items: center;
